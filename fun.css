@@ -1,0 +1,102 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+html {
+    height:100%;    
+}
+
+body {
+    background-image: url('images/bg.png');
+    height:100%;    
+    display:flex;
+    justify-content: center;
+    font: 15px "Andy";
+    color:white;
+}
+
+@font-face {
+    font-family: "fonts/Andy";
+    src: url(andy.ttf);
+}
+
+.everything {
+    gap: 8px;
+    display:flex;
+    flex-direction: column;
+}
+
+.comawaving {
+    align-self: center;
+    margin-top:20px;
+}
+
+.middlestuff {
+    gap: 8px;
+    display:flex;
+    align-self: center;
+}
+
+.maintext {
+    padding:20px;
+    text-align: center;
+    background-color: rgb(35, 35, 35);
+}
+
+.changelogtitle{
+    font-size:25px;
+    margin-bottom:10px;
+}
+
+.changelogversionname{
+    font-size:20px;
+    margin-bottom:5px;
+    color:rgb(205, 205, 205);
+}
+
+.changelogdescription{
+    font-size:15px;
+    color:rgb(205, 205, 205);
+}
+
+.linktitles{
+    margin-top: 15px;
+    margin:10px;
+}
+
+.toptext{
+    margin-bottom:10px;
+    font-size: 40px;
+}
+
+.lowertext {
+    margin-top:10px;
+    font-size: 15px;
+    color:rgb(205, 205, 205);
+}
+
+.sidebar {
+    padding:20px;
+    text-align: center;
+    width: 140px;
+    background-color: rgb(29, 29, 29);
+}
+
+.header {
+    padding:20px;
+    text-align: center;
+    background-color: rgb(16, 16, 16);
+}
+
+.footer {
+    padding:20px;
+    text-align: center;
+    color:rgb(103, 103, 103);
+    font-size:12px;
+    background-color: rgb(16, 16, 16);
+}
+
+.lowesttext{
+    margin-bottom:10px;
+}
