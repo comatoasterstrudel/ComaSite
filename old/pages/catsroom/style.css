@@ -1,0 +1,6 @@
+* { font-family: "Andy";}
+
+@font-face {
+    font-family: "Andy";
+    src: url(fonts/andy.ttf);
+}
