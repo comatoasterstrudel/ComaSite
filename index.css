@@ -8,12 +8,13 @@ html {
 }
 
 body {
-    background-image: url('images/bg.png');
+    background-image: url('images/diagonal.png');
     height:100%;    
     display:flex;
     justify-content: center;
     font: 15px "Andy";
     color:white;
+    background-attachment: fixed;
 }
 
 @font-face {
@@ -26,10 +27,16 @@ body {
     display:flex;
     flex-direction: column;
 }
-
+ 
 .comawaving {
     align-self: center;
     margin-top:20px;
+}
+
+.gradienttext {
+    background: -webkit-linear-gradient(left, rgb(255, 179, 248), rgb(195, 248, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .middlestuff {
@@ -41,7 +48,7 @@ body {
 .maintext {
     padding:20px;
     text-align: center;
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(35 35 35 / 0.7);
 }
 
 .changelogtitle{
@@ -80,13 +87,13 @@ body {
     padding:20px;
     text-align: center;
     width: 140px;
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(29 29 29 / 0.7);
 }
 
 .header {
     padding:20px;
     text-align: center;
-    background-color: rgb(16, 16, 16);
+    background-color: rgb(16 16 16 / 0.7);
 }
 
 .footer {
@@ -94,9 +101,10 @@ body {
     text-align: center;
     color:rgb(103, 103, 103);
     font-size:12px;
-    background-color: rgb(16, 16, 16);
+    background-color: rgb(16 16 16 / 0.7);
 }
 
 .lowesttext{
     margin-bottom:10px;
 }
+

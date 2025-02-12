@@ -1,0 +1,63 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+html {
+    height:100%;    
+}
+
+body {
+    background-image: url('images/comahead.gif');
+    height:100%;    
+    display:flex;
+    justify-content: center;
+    font: 15px "Andy";
+    color:white;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: "fonts/Andy";
+    src: url(andy.ttf);
+}
+
+.aboutme {
+    align-self: center;
+    margin-top:20px;
+}
+
+.everything {
+    gap: 8px;
+    display:flex;
+    flex-direction: column;
+}
+
+.header {
+    padding:20px;
+    text-align: center;
+    background-color: rgba(129 129 129 / 0.6);
+    color: black;
+}
+
+.toptext {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.middletext {
+    font-size:20px;
+}
+
+.gradienttext {
+    background: -webkit-linear-gradient(left, rgb(255, 179, 248), rgb(195, 248, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer {
+    padding:20px;
+    text-align: center;
+    background-color: rgba(45 37 73 / 0.3);
+    color: black;
+}
