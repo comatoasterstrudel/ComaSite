@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-image: url('images/comahead.gif');
+    background-image: url('../images/comahead.gif');
     height:100%;    
     display:flex;
     justify-content: center;
@@ -18,7 +18,7 @@ body {
 }
 
 @font-face {
-    font-family: "fonts/Andy";
+    font-family: "../fonts/Andy";
     src: url(andy.ttf);
 }
 
