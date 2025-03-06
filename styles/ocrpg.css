@@ -8,11 +8,11 @@ html {
 }
 
 body {
-    background-image: url('../images/comahead.gif');
+    background-image: url('../images/diagonal.png');
     height:100%;    
     display:flex;
     justify-content: center;
-    font: 15px "Andy"; 
+    font: 15px "Andy";
     color:white;
     background-attachment: fixed;
 }
@@ -22,7 +22,7 @@ body {
     src: url(andy.ttf);
 }
 
-.aboutme {
+.ocrpglogo {
     align-self: center;
     margin-top:20px;
 }
@@ -37,7 +37,7 @@ body {
     padding:20px;
     text-align: center;
     background-color: rgba(129 129 129 / 0.6);
-    color: black;
+    background-color: rgb(16 16 16 / 0.7);
 }
 
 .toptext {
@@ -49,10 +49,10 @@ body {
     font-size:20px;
 }
 
-.gradienttext {
-    background: -webkit-linear-gradient(left, rgb(255, 179, 248), rgb(195, 248, 248));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.links {
+    font-size:30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .footer {
