@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-image: url('../images/diagonal.png');
+    background-image: url('../images/normal.png');
     height:100%;    
     display:flex;
     justify-content: center;
